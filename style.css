@@ -75,17 +75,6 @@ background: #A7D8A0;
 color: #333333;
 }
 
-/* Botão CTA */
-.hero .cta {
-display: inline-block;
-background: #4E8A63;
-color: white;
-padding: 0.6em 1.2em;
-margin-top: 1em;
-border-radius: 5px;
-text-decoration: none;
-}
-
 /* =====================
 BENEFÍCIOS
 ===================== */
