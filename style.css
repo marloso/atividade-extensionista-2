@@ -80,27 +80,27 @@ BENEFÍCIOS
 ===================== */
 
 .beneficios {
-max-width: 900px;
+max-width: 1200px;
 margin: auto;
-padding: 2em 1em;
+padding: 3em 1em;
 text-align: center;
 }
 
 .cards {
 display: flex;
-gap: 1em;
-margin-top: 1em;
+gap: 2em;
+margin-top: 2em;
 flex-wrap: wrap;
 justify-content: center;
 }
 
 .card {
 background: white;
-width: 260px;
-padding: 1em;
-border-radius: 8px;
-box-shadow: 0 0 8px rgba(0,0,0,0.12);
-border-left: 5px solid #4E8A63;
+width: 340px;
+padding: 2em;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.12);
+border-left: 6px solid #4E8A63;
 }
 
 .card h3 {
@@ -114,17 +114,4 @@ RODAPÉ (AJUSTADO)
 footer {
 background: #4E8A63;
 color: white;
-padding: 1em;
-text-align: center;
-margin-top: auto;
-}
-
-/* =====================
-MOBILE
-===================== */
-
-@media(max-width: 768px){
-nav { display: none; }
-.menu-btn { display: block; }
-nav.open { display: block; }
-}
+padd
