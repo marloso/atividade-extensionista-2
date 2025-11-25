@@ -13,7 +13,7 @@ padding: 0;
 }
 
 /* =====================
-ESTILOS GERAIS
+GERAL
 ===================== */
 
 * {
@@ -26,7 +26,6 @@ ESTILOS GERAIS
 /* =====================
 CABEÇALHO
 ===================== */
-
 header {
 background: #4E8A63;
 color: #FFF;
@@ -41,21 +40,24 @@ font-size: 1.2em;
 font-weight: bold;
 }
 
+/* Menu buttons*/
 header nav a {
-margin: 0 1em;
+margin: 0 0.8em;
+padding: 0.45em 1em;
 color: #FFF;
 text-decoration: none;
 font-weight: 500;
+border: 2px solid #A7D8A0;
+border-radius: 6px;
+transition: 0.3s;
 }
 
-header nav .btn {
+header nav a:hover {
 background: #A7D8A0;
 color: #333;
-padding: 0.4em 0.8em;
-border-radius: 5px;
 }
 
-/* Botão Mobile */
+/* Mobile menu button */
 .menu-btn {
 display: none;
 background: none;
@@ -67,7 +69,6 @@ font-size: 1.5em;
 /* =====================
 HERO
 ===================== */
-
 .hero {
 padding: 4em 1em;
 text-align: center;
@@ -76,9 +77,26 @@ color: #333333;
 }
 
 /* =====================
+IMAGENS BANNER
+===================== */
+.imagens-banner {
+display: flex;
+justify-content: center;
+gap: 2em;
+padding: 2em 1em;
+flex-wrap: wrap;
+}
+
+.imagens-banner img {
+width: 45%;
+max-width: 500px;
+border-radius: 10px;
+box-shadow: 0 0 8px rgba(0,0,0,0.12);
+}
+
+/* =====================
 BENEFÍCIOS
 ===================== */
-
 .beneficios {
 max-width: 1200px;
 margin: auto;
@@ -110,8 +128,23 @@ color: #4E8A63;
 /* =====================
 RODAPÉ
 ===================== */
-
 footer {
 background: #4E8A63;
 color: white;
-padd
+padding: 1em;
+text-align: center;
+margin-top: auto;
+}
+
+/* =====================
+MOBILE
+===================== */
+@media(max-width: 768px){
+nav { display: none; }
+.menu-btn { display: block; }
+nav.open { display: block; }
+
+.imagens-banner img {
+width: 90%;
+}
+}
