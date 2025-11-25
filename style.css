@@ -82,7 +82,7 @@ IMAGENS BANNER
 .imagens-banner {
 display: flex;
 justify-content: center;
-gap: 2em;
+gap: 4em;
 padding: 2em 1em;
 flex-wrap: wrap;
 }
