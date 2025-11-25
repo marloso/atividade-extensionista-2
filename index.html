@@ -13,20 +13,26 @@
   <div class="logo">Bem-Estar na Velhice</div>
   <nav id="menu">
     <a href="index.html">Início</a>
-    <a href="motivos.html">Por que apoiar</a>
-    <a href="contato.html" class="btn">Contato</a>
+    <a href="#beneficios">Por que apoiar</a>
+    <a href="contato.html">Contato</a>
   </nav>
   <button class="menu-btn" onclick="toggleMenu()">☰</button>
 </header>
 
 <section class="hero">
   <h1>Promovendo o Bem-Estar na Velhice</h1>
-  <p>Apoie, conheça e valorize a importância das casas de apoio para idosos.</p>
+  <p>Conheça, apoie e valorize a importância das casas de apoio para idosos.</p>
 </section>
 
-<section class="beneficios">
+<section class="imagens-banner">
+  <img src="img1.jpg">
+  <img src="img2.jpg">
+</section>
+
+<section class="beneficios" id="beneficios">
   <h2>Por que essa causa importa?</h2>
   <div class="cards">
+
 <div class="card">
   <h3>A importância das casas de apoio na vida do idoso</h3>
   <p>As casas de apoio oferecem um ambiente seguro e acolhedor, onde idosos recebem acompanhamento contínuo e carinho especializado. Elas promovem bem-estar, criam uma nova rotina social e ajudam a manter a saúde física e emocional, garantindo uma velhice mais digna e assistida.</p>
@@ -56,6 +62,7 @@
   <h3>A importância de cuidar de quem já cuidou de nós</h3>
   <p>Idosos dedicaram sua vida à família e à sociedade. Retribuir esse cuidado, garantindo conforto, segurança e afeto, é uma forma de respeito e gratidão. Apoiar casas de acolhimento é uma forma concreta de assegurar que eles tenham uma velhice digna e feliz.</p>
 </div>
+
   </div>
 </section>
 
@@ -63,7 +70,11 @@
   <p>© 2025 – Promovendo o Bem-Estar na Velhice</p>
 </footer>
 
-<script src="script.js"></script>
+<script>
+function toggleMenu(){
+  document.getElementById("menu").classList.toggle("open");
+}
+</script>
 
 </body>
 </html>
