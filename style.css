@@ -83,14 +83,14 @@ IMAGENS BANNER
 display: flex;
 justify-content: center;
 gap: 3em;
-padding: 6em 2em;
+padding: 4em 2em;
 flex-wrap: wrap;
 }
 
 .imagens-banner img {
 width: 45%;
 max-width: 500px;
-border-radius: 15px;
+border-radius: 20px;
 box-shadow: 0 0 8px rgba(0,0,0,0.12);
 }
 
